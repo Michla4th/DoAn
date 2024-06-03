@@ -7,8 +7,8 @@
 #define relay_pin 12 // D5 
 #define led_pin 2    // D4 
 
-#define WIFI_SSID "Made In China"
-#define WIFI_PASSWORD "michla123"
+#define WIFI_SSID "WIFI_AP"
+#define WIFI_PASSWORD "WIFI_PASSWORD"
 
 // AP mode
 const char *ssid_AP = "ESP8266";
@@ -24,9 +24,9 @@ bool connect = 0;
 // Provide the RTDB payload printing info and other helper functions.
 #include "addons/RTDBHelper.h"
 // Insert Firebase project API Key
-#define API_KEY "AIzaSyAawUewE6lIIDD3wPV27w3ECELHwmenpi8"
+#define API_KEY "API_KEY"
 // Insert RTDB URLefine the RTDB URL */
-#define DATABASE_URL "https://realtime-79133-default-rtdb.firebaseio.com/"
+#define DATABASE_URL "URL"
 
 // Pzem 004t
 #include <PZEM004Tv30.h>
