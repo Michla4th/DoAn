@@ -20,7 +20,7 @@
 
 ## 🖥️ Web Dashboard
 
-<img src="https://github.com/Michla4th/DoAn/blob/main/images/web-dashboard.png" alt="Web Dashboard" width="800"/>
+<img src="https://github.com/Michla4th/DoAn/blob/main/image/web-dashboard.png" alt="Web Dashboard" width="800"/>
 
 > Web interface built with Node-RED. Offers real-time visualization of power data, control buttons, and alerts.
 
@@ -28,7 +28,7 @@
 
 ## 📱 Mobile App (Flutter)
 
-<img src="https://github.com/Michla4th/DoAn/blob/main/images/mobile-app.png" alt="Mobile App" width="300"/>
+<img src="https://github.com/Michla4th/DoAn/blob/main/image/mobile-app.png" alt="Mobile App" width="300"/>
 
 > Flutter-based Android app for tracking energy usage, receiving alerts, and controlling connected devices.
 
