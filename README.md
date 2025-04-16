@@ -127,7 +127,3 @@ Once the system is set up, you can monitor and control the hardware (relays, sen
 
 ---
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
