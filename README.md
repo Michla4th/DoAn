@@ -1,19 +1,20 @@
-# ⚡ Smart Power Monitoring Device
+# ⚡ Smart Power Monitoring Device – IoT Energy Monitoring for Dormitory Rooms
 
-<img src="images/device-overview.jpg" alt="Smart Power Device" width="600"/>
+<img src="images/device-overview.jpg" alt="Device Overview" width="600"/>
 
-> A DIY Smart IoT device for monitoring and controlling power consumption in real time.
+> A smart, compact, real-time energy monitoring system designed for student dormitories, allowing users to monitor power consumption and control devices remotely via Web & Mobile App.
 
 ---
 
-## 🚀 Features
+## 🚀 Key Features
 
-- 🔌 Measure voltage, current, power, and total energy consumption (kWh)
-- 📲 Real-time monitoring via **Web Dashboard** and **Mobile App**
-- 🧠 Remote ON/OFF control for low-power devices
-- 📡 Communication via **MQTT** over Wi-Fi
-- 🔒 Built-in protection for **Overvoltage** and **Overcurrent**
-- 🌐 Multiple device support — monitor all devices from a single dashboard
+- ⚡ Measure voltage, current, power, and energy consumption
+- 📲 Real-time monitoring via Web Dashboard & Android Mobile App
+- 🔌 Remote ON/OFF control for low-power devices
+- 🛡️ Protection against overvoltage and overcurrent
+- 🏠 Multiple device support across dormitory rooms
+- 📦 Data backup when offline (stored in Flash memory for up to 2 months)
+- 🌐 Firebase-based cloud data with authentication & real-time sync
 
 ---
 
@@ -21,47 +22,52 @@
 
 <img src="images/web-dashboard.png" alt="Web Dashboard" width="800"/>
 
-> View real-time data and control devices from any browser.
+> Web interface built with Node-RED. Offers real-time visualization of power data, control buttons, and alerts.
 
 ---
 
-## 📱 Mobile App (Android)
+## 📱 Mobile App (Flutter)
 
 <img src="images/mobile-app.png" alt="Mobile App" width="300"/>
 
-> Monitor and control your smart power device on the go.
+> Flutter-based Android app for tracking energy usage, receiving alerts, and controlling connected devices.
 
 ---
 
-## 🛠️ Tech Stack
+## 🔧 Hardware Components
 
-- **MCU:** ESP32
-- **Languages:** C++, HTML/CSS, JavaScript
-- **Protocols:** MQTT, HTTP, WebSocket
-- **Database:** Firebase (or replace with your choice)
-- **App:** Android (Flutter or native)
-- **Web:** Custom Dashboard or Node-RED
+| Component | Description |
+|----------|-------------|
+| **ESP8266 D1 Mini** | Main microcontroller board |
+| **PZEM-004T** | Voltage/Current/Power/Energy sensor |
+| **OLED 0.96"** | Real-time local display |
+| **SSR G3MB-202P** | Solid-state relay for remote switching |
+| **HLK-PM01** | AC-DC converter (230V AC to 5V DC) |
 
----
-
-## 🧰 Hardware Components
-
-- ESP32 Dev Board  
-- Current Sensor (e.g. ACS712 or HLW8012)  
-- Voltage Divider Circuit  
-- Relay Module  
-- Power Supply (5V)  
-- Protection Circuit (fuse, varistor, etc.)
+3D enclosure designed with **Inventor** and prepared for printing using **Ultimaker Cura**.
 
 ---
 
-## 📷 Gallery
+## 📚 Software Stack
 
-### 📸 Device
-
-<img src="images/device-front.jpg" alt="Device Front" width="400"/> <img src="images/device-inside.jpg" alt="Device Inside" width="400"/>
+| Layer | Tools & Technologies |
+|-------|-----------------------|
+| Firmware | Arduino IDE, C++ |
+| Cloud | Firebase (Realtime DB, Auth, Hosting) |
+| App | Flutter (Android) |
+| Web | Node-RED |
+| Communication | MQTT, HTTP, WebSocket |
+| Platform Compatibility | Web, Android, iOS (planned), Desktop |
 
 ---
 
-## 📦 Folder Structure
+## 🧠 System Overview
 
+```mermaid
+graph TD;
+  Sensor[PZEM-004T] --> MCU[ESP8266];
+  ESP8266 --> OLED;
+  ESP8266 --> SSR;
+  ESP8266 --> Firebase;
+  Firebase --> WebApp[Web Dashboard];
+  Firebase --> MobileApp[Flutter App];
