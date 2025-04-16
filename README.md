@@ -28,7 +28,7 @@
 
 ## 📱 Mobile App (Flutter)
 
-<img src="https://github.com/Michla4th/DoAn/blob/main/image/mobile-app.png" alt="Mobile App" width="300"/>
+<img src="https://github.com/Michla4th/DoAn/blob/main/image/mobile-app.png" alt="Mobile App" width="800"/>
 
 > Flutter-based Android app for tracking energy usage, receiving alerts, and controlling connected devices.
 
