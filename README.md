@@ -64,8 +64,7 @@ The printed circuit board was designed using Altium Designer, including both the
 The case was modeled in Autodesk Inventor to precisely fit the PCB and components inside. The design ensures both structural protection and ease of assembly.
 
 <p align="center"> 
-  <img src="image/case-front.png" alt="3D Case Front" width="350"/> 
-  <img src="image/case-back.png" alt="3D Case Back" width="350"/> 
+  <img src="image/case-front-back.png" alt="3D Case Front" width="350"/> 
 </p> 
 <p align="center"> 
   <img src="image/assembly-inside.png" alt="Assembly Inside View" width="600"/> 
