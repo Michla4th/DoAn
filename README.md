@@ -55,7 +55,11 @@
 ## 🔌 PCB Design (Altium Designer)
 The printed circuit board was designed using Altium Designer, including both the schematic and the top/bottom layer layout. A two-layer design optimizes space and ensures reliable operation.
 
-<p align="center"> <img src="image/pcb-front.png" alt="PCB Front View" width="350"/> <img src="image/pcb-back.png" alt="PCB Back View" width="350"/> </p>
+<p align="center"> 
+  <img src="image/pcb-front.png" alt="PCB Front View" width="600"/> 
+  
+  <img src="image/pcb-3d.png" alt="PCB Back View" width="600"/> 
+</p>
 ## 🧱 Enclosure Design (Autodesk Inventor)
 The case was modeled in Autodesk Inventor to precisely fit the PCB and components inside. The design ensures both structural protection and ease of assembly.
 
