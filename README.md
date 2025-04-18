@@ -57,9 +57,9 @@ The printed circuit board was designed using Altium Designer, including both the
 
 <p align="center"> 
   <img src="image/pcb-front.png" alt="PCB Front View" width="600"/> 
-  
   <img src="image/pcb-3d.png" alt="PCB Back View" width="600"/> 
 </p>
+
 ## 🧱 Enclosure Design (Autodesk Inventor)
 The case was modeled in Autodesk Inventor to precisely fit the PCB and components inside. The design ensures both structural protection and ease of assembly.
 
@@ -97,3 +97,5 @@ graph TD;
   Firebase --> MobileApp[Flutter App];
 ```
 
+## 🔎 Project Summary (from Thesis Report)
+The device helps students and dormitory administrators easily monitor real-time power consumption, receive timely alerts, and remotely control connected devices. It is a highly practical solution that can be easily scaled and upgraded with features such as multi-room management, offline data storage, fast relay control, and integrated fault detection alerts. The user interface is simple, intuitive, and well-suited for both Web and Mobile App platforms.
