@@ -51,7 +51,6 @@
 
 ---
 
-## 📐 PCB & 3D Design
 ## 🔌 PCB Design (Altium Designer)
 The printed circuit board was designed using Altium Designer, including both the schematic and the top/bottom layer layout. A two-layer design optimizes space and ensures reliable operation.
 
